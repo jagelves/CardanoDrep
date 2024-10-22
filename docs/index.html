@@ -114,10 +114,7 @@ ul.task-list li input[type="checkbox"] {
   <ul>
   <li><a href="#j.-alejandro-gelves" id="toc-j.-alejandro-gelves" class="nav-link active" data-scroll-target="#j.-alejandro-gelves">J. Alejandro Gelves</a>
   <ul class="collapse">
-  <li><a href="#cardano-drep" id="toc-cardano-drep" class="nav-link" data-scroll-target="#cardano-drep">Cardano Drep</a>
-  <ul class="collapse">
-  <li><a href="#drep1yfvaqxpkft4lth0ldym5rhck0xj8e5euarexat3martg69qdapm33-cardano-scan" id="toc-drep1yfvaqxpkft4lth0ldym5rhck0xj8e5euarexat3martg69qdapm33-cardano-scan" class="nav-link" data-scroll-target="#drep1yfvaqxpkft4lth0ldym5rhck0xj8e5euarexat3martg69qdapm33-cardano-scan">drep1yfvaqxpkft4lth0ldym5rhck0xj8e5euarexat3martg69qdapm33 Cardano Scan</a></li>
-  </ul></li>
+  <li><a href="#cardano-drep" id="toc-cardano-drep" class="nav-link" data-scroll-target="#cardano-drep">Cardano Drep</a></li>
   <li><a href="#votes" id="toc-votes" class="nav-link" data-scroll-target="#votes">Votes</a></li>
   </ul></li>
   </ul>
@@ -133,10 +130,28 @@ ul.task-list li input[type="checkbox"] {
 <h1>J. Alejandro Gelves</h1>
 <section id="cardano-drep" class="level2">
 <h2 class="anchored" data-anchor-id="cardano-drep">Cardano Drep</h2>
-<section id="drep1yfvaqxpkft4lth0ldym5rhck0xj8e5euarexat3martg69qdapm33-cardano-scan" class="level3">
-<h3 class="anchored" data-anchor-id="drep1yfvaqxpkft4lth0ldym5rhck0xj8e5euarexat3martg69qdapm33-cardano-scan">drep1yfvaqxpkft4lth0ldym5rhck0xj8e5euarexat3martg69qdapm33 <a href="https://cardanoscan.io/drep/drep1yfvaqxpkft4lth0ldym5rhck0xj8e5euarexat3martg69qdapm33?tab=votes">Cardano Scan</a></h3>
-<p><br> <br> At this moment just learning…</p>
-</section>
+<p>drep1yfvaqxpkft4lth0ldym5rhck0xj8e5euarexat3martg69qdapm33 <button id="copyLinkButton" onclick="copyToClipboard()">Copy drep</button></p>
+<p id="linkToCopy" style="display: none;">
+drep1yfvaqxpkft4lth0ldym5rhck0xj8e5euarexat3martg69qdapm33
+</p>
+<script>
+function copyToClipboard() {
+  // Get the link text from the hidden paragraph
+  var copyText = document.getElementById("linkToCopy").innerText;
+
+  // Create a temporary input element to copy the text
+  var tempInput = document.createElement("input");
+  document.body.appendChild(tempInput);
+  tempInput.setAttribute("value", copyText);
+  tempInput.select();
+  document.execCommand("copy");
+  document.body.removeChild(tempInput);
+
+  // Optional: Show a message to indicate that the link has been copied
+  alert("Link copied to clipboard: " + copyText);
+}
+</script>
+<p>View on <a href="https://cardanoscan.io/drep/drep1yfvaqxpkft4lth0ldym5rhck0xj8e5euarexat3martg69qdapm33?tab=votes">Cardano Scan</a> <br> <br></p>
 </section>
 <section id="votes" class="level2">
 <h2 class="anchored" data-anchor-id="votes">Votes</h2>

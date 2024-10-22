@@ -1,10 +1,34 @@
 
 # J. Alejandro Gelves
 ## Cardano Drep
-### drep1yfvaqxpkft4lth0ldym5rhck0xj8e5euarexat3martg69qdapm33 [Cardano Scan](https://cardanoscan.io/drep/drep1yfvaqxpkft4lth0ldym5rhck0xj8e5euarexat3martg69qdapm33?tab=votes)
+
+
+drep1yfvaqxpkft4lth0ldym5rhck0xj8e5euarexat3martg69qdapm33
+<button id="copyLinkButton" onclick="copyToClipboard()">Copy drep</button>
+
+<p id="linkToCopy" style="display: none;">drep1yfvaqxpkft4lth0ldym5rhck0xj8e5euarexat3martg69qdapm33</p>
+
+<script>
+function copyToClipboard() {
+  // Get the link text from the hidden paragraph
+  var copyText = document.getElementById("linkToCopy").innerText;
+
+  // Create a temporary input element to copy the text
+  var tempInput = document.createElement("input");
+  document.body.appendChild(tempInput);
+  tempInput.setAttribute("value", copyText);
+  tempInput.select();
+  document.execCommand("copy");
+  document.body.removeChild(tempInput);
+
+  // Optional: Show a message to indicate that the link has been copied
+  alert("Link copied to clipboard: " + copyText);
+}
+</script>
+
+View on [Cardano Scan](https://cardanoscan.io/drep/drep1yfvaqxpkft4lth0ldym5rhck0xj8e5euarexat3martg69qdapm33?tab=votes)
 <br>
 <br>
-At this moment just learning...
 
 ## Votes
 
