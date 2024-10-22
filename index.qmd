@@ -5,3 +5,9 @@
 <br>
 <br>
 At this moment just learning...
+
+## Votes
+
+| Date | Proposal | Vote | Rationale |
+|:----:|:--------:|:----:|:---------:|
+|10/13/24|Should K increased?| NO| The proposal lacks support. Cardano is sufficiently decentralized according to the EDI| 
