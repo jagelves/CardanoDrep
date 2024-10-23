@@ -1,9 +1,8 @@
 
-# J. Alejandro Gelves
 ## Cardano Drep
 
 
-drep1yfvaqxpkft4lth0ldym5rhck0xj8e5euarexat3martg69qdapm33
+*drep1yfvaqxpkft4lth0ldym5rhck0xj8e5euarexat3martg69qdapm33*
 <button id="copyLinkButton" onclick="copyToClipboard()">Copy drep</button>
 
 <p id="linkToCopy" style="display: none;">drep1yfvaqxpkft4lth0ldym5rhck0xj8e5euarexat3martg69qdapm33</p>
